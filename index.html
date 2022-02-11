@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./fontawesome-free-5.14.0-web/css/all.css" />
+    <title>Cart Page</title>
+  </head>
+  <body>
+    <div class="open">
+      <button class="button open">
+        <ion-icon name="cart-outline"></ion-icon>
+      </button>
+    </div>
+    <div class="container">
+      <div class="heading">
+        <h4>Shopping Cart</h4>
+        <button class="button exit">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+      <div class="products">
+        <div class="single-product">
+          <div class="image-container">
+            <img src="./images/7.png" alt="Jordan" class="product-image" />
+          </div>
+          <div class="content">
+            <h5 class="name">Nike Air Force 1</h5>
+            <p class="desc">Super version, 8gb</p>
+            <p class="price">900$</p>
+            <div class="counter">
+              <button class="button minus least">
+                <i class="fas fa-minus"></i>
+              </button>
+              <p class="total">1</p>
+              <button class="button add">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="single-product">
+          <div class="image-container">
+            <img src="./images/6.png" alt="" class="product-image" />
+          </div>
+          <div class="content">
+            <h5 class="name">Jordan</h5>
+            <p class="desc">Air Jordan 1 Retro High</p>
+            <p class="price">500$</p>
+            <div class="counter">
+              <button class="button minus least">
+                <i class="fas fa-minus"></i>
+              </button>
+              <p class="total">1</p>
+              <button class="button add">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="single-product">
+          <div class="image-container">
+            <img src="./images/8.png" alt="" class="product-image" />
+          </div>
+          <div class="content">
+            <h5 class="name">Jordan - Air 7 Retro</h5>
+            <p class="desc">Super version, 8gb</p>
+            <p class="price">750$</p>
+            <div class="counter">
+              <button class="button minus least">
+                <i class="fas fa-minus"></i>
+              </button>
+              <p class="total">1</p>
+              <button class="button add">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="total-price">
+        <div class="single-price product-cost hide" data-expand>
+          <p>Product cost:</p>
+          <p>2150$</p>
+        </div>
+        <div class="single-price shipping hide" data-expand>
+          <p>Shipping:</p>
+          <p>29.99$</p>
+        </div>
+        <div class="single-price sub-total">
+          <p>Subtotal:</p>
+          <p>1600</p>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="button view">View in full</button>
+        <button class="button checkout">Checkout</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
